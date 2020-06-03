@@ -16,28 +16,6 @@ void start()
 	Data* ds = new Data;
 	int command = 0, sec_command = 0, ter_command = 0;
 
-    cout << "\n(1) Create Data Structure" << endl;
-    cout << "(2) Print Data Structure" << endl;
-    cout << "(3) Print an Item" << endl;
-    cout << "(4) Print a Group" << endl;
-    cout << "(5) Print a Subgroup (By Names)" << endl;
-    cout << "(6) Print a Subgroup (By Dates)" << endl;
-    cout << "(7) Count Items" << endl;
-    cout << "(8) Count Items in a Group" << endl;
-    cout << "(9) Count Items in a Subgroup" << endl;
-    cout << "(10) Insert an Item" << endl;
-    cout << "(11) Insert a Group" << endl;
-    cout << "(12) Insert a Subgroup" << endl;
-    cout << "(13) Remove an Item" << endl;
-    cout << "(14) Remove a Group" << endl;
-    cout << "(15) Remove a Subgroup" << endl;
-    cout << "(16) Exit" << endl;
-
-    command = 0;
-    cout << "Enter task number: ";
-    cin >> command;
-    CheckInputError();
-
     cout << "Firstly, creating a data structure" << endl;
     int ItemNumber;
     cout << "Enter item number: ";
